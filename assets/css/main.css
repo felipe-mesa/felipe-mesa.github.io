@@ -3961,6 +3961,7 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		padding-top: 2%;
 	}
 
 		#footer input, #footer select, #footer textarea {
@@ -4198,7 +4199,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 2rem 2rem 1rem 2rem ;
 			border-left: solid 2px #e2e2e2;
 		}
 
@@ -4241,7 +4242,7 @@ input, select, textarea {
 					-webkit-align-items: center;
 					-ms-align-items: center;
 					align-items: center;
-					padding: 3.15rem 4rem;
+					padding: 0.7rem 0.1rem;		/* Aqui para cambiar el padding del primer elemento del contact*/
 				}
 
 					#footer > section.split.contact > section > * {
@@ -4272,11 +4273,11 @@ input, select, textarea {
 					}
 
 					#footer > section.split.contact > section:first-child {
-						padding: 4rem 4rem 3rem 4rem;
+						padding: 2rem 2rem 1.5rem 2rem;
 					}
 
 					#footer > section.split.contact > section:last-child {
-						padding: 3rem 4rem 4rem 4rem;
+						padding: 2rem 2rem 2rem 2rem;
 					}
 
 					#footer > section.split.contact > section.alt {
@@ -4293,7 +4294,7 @@ input, select, textarea {
 		#footer form label,
 		#footer h3,
 		#footer p {
-			font-size: 0.8rem;
+			font-size: 1.1rem;	/* Aqui para cambiar el tamaño de letra del contact*/
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4323,15 +4324,15 @@ input, select, textarea {
 						}
 
 					#footer > section.split.contact > section {
-						padding: 4rem;
+						padding: 2rem;
 					}
 
 						#footer > section.split.contact > section:first-child {
-							padding: 4rem;
+							padding: 2rem;
 						}
 
 						#footer > section.split.contact > section:last-child {
-							padding: 4rem;
+							padding: 2rem;
 						}
 
 				#footer form label,
